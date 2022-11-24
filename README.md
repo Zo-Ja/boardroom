@@ -1,6 +1,16 @@
 # Boardroom suit builder webapp
 Suit builder gemaakt met [react](https://reactjs.org/).
 
+## Kleuren
+De kleuren die gebruikt worden bij het design.
+
+- ![#222222](https://placehold.co/15x15/222222/222222.png) `#222222`
+- ![#ffffff](https://placehold.co/15x15/ffffff/ffffff.png) `#ffffff`
+- ![#936525](https://placehold.co/15x15/936525/936525.png) `#936525`
+- ![#eadfbd](https://placehold.co/15x15/eadfbd/eadfbd.png) `#eadfbd`
+- ![#2c5234](https://placehold.co/15x15/2c5234/2c5234.png) `#2c5234`
+
+
 ## Installatie
 ### Prerequisites
 Om te werken aan de webapp heb je [nodeJS](https://nodejs.org/) nodig.
