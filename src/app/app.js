@@ -1,9 +1,19 @@
 import './app.css';
 
+import { createBrowserRouter, RouterProvider } from 'react-router-dom';
+import Index from '../pages';
+
+const router = createBrowserRouter([
+	{
+		path: '/',
+		element: <Index/>
+	}
+]);
+
 function App() {
     return (
-        <h1>Suit builder</h1>
-    )
+		<RouterProvider router={router}/>
+    );
 }
 
 export default App;
