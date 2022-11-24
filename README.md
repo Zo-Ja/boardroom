@@ -1,70 +1,48 @@
-# Getting Started with Create React App
+# Boardroom suit builder webapp
+Suit builder gemaakt met [react](https://reactjs.org/).
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installatie
+### Prerequisites
+Om te werken aan de webapp heb je [nodeJS](https://nodejs.org/) nodig.
+Het is aangeraden om de LTS (Long Term Support) versie te gebruiken.
 
-## Available Scripts
+### 1 - Het project downloaden
+Als eerste moet je het project downloaden. Hiervoor kan je [git](https://git-scm.com/) gebruiken of een zip file downloaden.
 
-In the project directory, you can run:
+#### Cloning
+*Git is een vereiste hiervoor.*
 
-### `npm start`
+Open een terminal in de folder waar je het project wilt hebben en run het volgende command.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+```$ git clone https://github.com/Zo-Ja/boardroom.git```
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+#### Zip file
+Klik [hier](https://github.com/Zo-Ja/boardroom/archive/refs/heads/main.zip) om de zip file te downloaden.
 
-### `npm test`
+Unzip het op de bestemde plek en voilà, *done already*.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### 2 - Modules installeren
+Voor dit project zijn modules als [react](https://reactjs.org/) en [react router](https://reactrouter.com/) nodig.
 
-### `npm run build`
+Om deze te installeren moet je een terminal openen in de *root* folder van het project. 
+(of er in verplaatsen vanuit je bestaande terminal!)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Dan moet je deze command runnen.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```$ npm install```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Dit zal alles installeren dat het project nodig heeft. *Het kan een tijdje duren :(* 
 
-### `npm run eject`
+**Nu zul je een werkende versie van het project op je device hebben staan!**
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```$ npm run```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Je beste vriend(in) tijdens development.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Builden
+Om het project te builden heb je maar **één** command nodig.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```$ npm build```
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Dit command zal een optimized build voor je maken.
+Alle files komen in een *build* folder terecht en die kan je verplaatsen naar een static server.
